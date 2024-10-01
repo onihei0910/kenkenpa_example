@@ -11,7 +11,7 @@
 		},
 		"ghcr.io/hspaans/devcontainer-features/pytest:1": {},
 		"ghcr.io/devcontainers/features/python:1": {}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -20,7 +20,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "./init_devenv.sh",
+	"postCreateCommand": "./initenv.sh"
 	// Configure tool-specific properties.
 	// "customizations": {}
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
