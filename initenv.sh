@@ -1,4 +1,3 @@
 #!/bin/bash
 
-pip install jupyter
-pip install kenkenpa
+pip install -r requirements.txt
