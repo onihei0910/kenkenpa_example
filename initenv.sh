@@ -1,3 +1,6 @@
 #!/bin/bash
 
-pip install -r requirements.txt
+pip install jupyter
+pip install kenkenpa
+pip install langchain_openai
+pip install grandalf
